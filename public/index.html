@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Finder challenge</title>
+    <meta charset="utf-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css">
+    <link href="/vendor/pure/pure-min.css" rel="stylesheet">
+    <link href="/styles/index.css" rel="stylesheet">
+    <link href="/vendor/awesomplete/awesomplete.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app container">
+      <header class="header">
+        <div class="header-left">
+          <h1 class="header-logo">Finder challenge</h1>
+        </div>
+        <div class="header-right">
+          <div class="header-search-form">
+            <input id="inputSearch" type="text">
+            <button id="buttonSearch" disabled>Buscar</button><a href="#">Guardar Búsqueda</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <aside class="filters"></aside>
+        <content class="results"></content>
+      </main>
+    </div>
+    <script src="/vendor/underscore/underscore-min.js"></script>
+    <script src="/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/vendor/awesomplete/awesomplete.min.js"></script>
+    <script src="/scripts/global.js"></script>
+    <script src="/scripts/search-form.js"></script>
+    <script src="/scripts/enable-button.js"></script>
+    <script src="/scripts/autocomplete.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
